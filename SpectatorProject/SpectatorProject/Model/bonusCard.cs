@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SpectatorProject.Model
 {
-    class bonusCard
+    class BonusCard
     {
         private float budget;
         private string cardNumber;
