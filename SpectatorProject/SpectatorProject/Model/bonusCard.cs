@@ -13,5 +13,12 @@ namespace SpectatorProject.Model
         private string cardNumber;
         private Status cardStatus;
 
+        public BonusCard(float budget, string cardNumber, Status cardStatus)
+        {
+            this.budget = budget;
+            this.cardNumber = cardNumber;
+            this.cardStatus = cardStatus;
+        }
+
     }
 }
